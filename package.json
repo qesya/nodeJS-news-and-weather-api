@@ -1,0 +1,24 @@
+{
+  "name": "nodemysqlapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "lint": "standard ./api/*.js ./util/*.js server.js",
+    "auto-lint": "standard --fix ./api/*.js ./util/*.js server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "standard": "^14.3.1"
+  }
+}
